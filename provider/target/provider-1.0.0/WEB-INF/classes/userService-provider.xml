@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+<!--    服务提供者声名名称：必须保证服务名称的唯一性-->
+    <dubbo:application name="provider"/>
+
+<!--    访问服务及协议的名称端口号-->
+    <dubbo:protocol name="dubbo" port="20880"/>
+
+<!--    暴漏服务器接口 如果不需要registry 则N/O-->
+    <dubbo:service interface="com.chinasoft.service.UserService" ref="userService" registry="N/A"/>
+
+<!--    将接口实现类注入到容器中-->
+    <bean id="userService" class="com.chinasoft.service.impl.UserServiceImpl"/>
+</beans>

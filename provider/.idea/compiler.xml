@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zk-interface" />
+        <module name="provider" />
+        <module name="zk-provider" />
+        <module name="dubbo-provider" />
+        <module name="zk-consumer" />
+        <module name="consumer" />
+        <module name="dubbo-customer" />
+        <module name="dubbo-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer" target="1.8" />
+      <module name="dubbo-api" target="1.8" />
+      <module name="dubbo-customer" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="provider" target="1.8" />
+      <module name="zk-consumer" target="1.8" />
+      <module name="zk-interface" target="1.8" />
+      <module name="zk-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

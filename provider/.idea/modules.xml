@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../consumer/consumer.iml" filepath="$PROJECT_DIR$/../consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dubbo-api/dubbo-api.iml" filepath="$PROJECT_DIR$/../dubbo-api/dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dubbo-customer/dubbo-customer.iml" filepath="$PROJECT_DIR$/../dubbo-customer/dubbo-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/../dubbo-provider/dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider.iml" filepath="$PROJECT_DIR$/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zk-consumer/zk-consumer.iml" filepath="$PROJECT_DIR$/../zk-consumer/zk-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zk-interface/zk-interface.iml" filepath="$PROJECT_DIR$/../zk-interface/zk-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zk-provider/zk-provider.iml" filepath="$PROJECT_DIR$/../zk-provider/zk-provider.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+com\chinasoft\service\UserService.class
+com\chinasoft\pojo\User.class
+com\chinasoft\service\impl\UserServiceImpl.class
